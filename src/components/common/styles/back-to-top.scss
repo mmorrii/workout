@@ -1,0 +1,35 @@
+.back-to-top {
+   position: fixed;
+   cursor: pointer;
+   right: 20px;
+   bottom: -50px;
+   width: 45px;
+   height: 45px;
+   line-height: 55px;
+   z-index: 999;
+   border-radius: 50%;
+   text-align: center;
+   border: 2px solid #FFFFFF;
+   transition: all 0.3s ease;
+
+   &.show {
+      bottom: 20px;
+   }
+
+   &:hover {
+      i {
+         transform: translateY(-3px) rotate(270deg);
+      }
+   }
+
+   &:active {
+      i {
+         transform: translateY(0) rotate(270deg);
+      }
+   }
+
+   i {
+      transition: all 0.3s ease;
+      font-size: 1.6em;
+   }
+}

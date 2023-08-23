@@ -1,0 +1,32 @@
+$otherColor: rgb(37, 171, 117);
+$otherColorTariff: #E6533C;
+$backgroundColor: #000000;
+$otherBackgroundColor: rgb(25, 25, 25);
+$textColor: #FFFFFF;
+$paragraphColor: #ABABAB;
+
+@mixin button {
+   padding: 20px;
+   width: 160px;
+   font-weight: 600;
+   font-size: 1.02em;
+   color: $textColor;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: all 0.3s ease;
+}
+
+@mixin link-more {
+   a {
+      color: #0070C9;
+   }
+
+   i {
+      font-size: 1.2em;
+      color: $textColor;
+      margin-left: 10px;
+      transition: all 0.3s ease;
+      transform: translateY(2px);
+      cursor: pointer;
+   }
+}

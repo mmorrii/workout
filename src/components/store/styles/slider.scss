@@ -1,0 +1,131 @@
+@import "@/assets/styles/vars.scss";
+
+.slider {
+    @media(min-width: 1500px) {
+        overflow: hidden;
+    }
+
+    h2 {
+        font-size: 2.4em;
+        margin-bottom: 15px;
+
+        @media(max-width: 570px) {
+            font-size: 2.2em;
+            line-height: 120%;
+        }
+    }
+
+    p {
+        color: $paragraphColor;
+        margin-bottom: 50px;
+    }
+
+    .blocks {
+        display: flex;
+        width: fit-content;
+        margin-bottom: 40px;
+        transition: all 0.3s ease;
+
+        .item {
+            background: #323443;
+            padding: 30px 25px;
+            border-radius: 12px;
+            width: 250px;
+
+            @media(max-width: 570px) {
+                width: 237px;
+            }
+
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+
+            &:hover {
+
+                i {
+                    transform: translateX(5px);
+                }
+            }
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin-bottom: 0;
+
+                @media(max-width: 570px) {
+                    font-size: 0.9em;
+                }
+            }
+
+            >div {
+                display: flex;
+                align-items: flex-end;
+                column-gap: 5px;
+
+                i {
+                    color: $textColor;
+                    font-size: 1.5em;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: $paragraphColor;
+                    }
+                }
+            }
+        }
+    }
+
+    .buttons {
+        display: flex;
+        column-gap: 30px;
+        transform: translateX(5px);
+        margin-bottom: 150px;
+
+        @media (max-width: 1010px) {
+            margin-bottom: 100px;
+        }
+
+        @mixin slider-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: scale(1.06);
+            }
+        }
+
+        .back {
+            @include slider-button;
+
+            &:active {
+                i {
+                    transform: translateX(-5px) rotate(180deg);
+                }
+            }
+        }
+
+        .next {
+            @include slider-button;
+
+            &:active {
+                i {
+                    transform: translateX(5px);
+                }
+            }
+        }
+
+        i {
+            font-size: 1.6em;
+            transition: all 0.1s ease;
+        }
+    }
+}

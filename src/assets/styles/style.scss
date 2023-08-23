@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+//--------------------------------------------------------
+@import "@/assets/styles/vars.scss";
+
+//--------------------------------------------------------
+/* Скрыть стандартную полосу прокрутки */
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+/* Стилизация полосы прокрутки */
+::-webkit-scrollbar-thumb {
+   background: $otherBackgroundColor;
+   border-radius: 5px;
+}
+
+/* Стилизация полосы прокрутки при наведении */
+::-webkit-scrollbar-thumb:hover {
+   background: rgba(171, 171, 171, 0.55);
+}
+
+/* Стилизация трека (фон) прокрутки */
+::-webkit-scrollbar-track {
+   background: rgba(14, 14, 14, 0.52);
+}
+
+//--------------------------------------------------------
+* {
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none;
+}
+
+body {
+   background: $backgroundColor;
+   color: $textColor;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 1em;
+   //position: relative;
+}
+
+a {
+   color: $paragraphColor;
+   text-decoration: none;
+}
+
+.wrapper {
+   overflow: hidden;
+}
+
+.container {
+   @media (min-width: 1500px) {
+      width: 1300px;
+      margin: 0 auto;
+   }
+
+   @media (max-width: 1500px) and (min-width: 900px) {
+      width: 80%;
+      margin: 0 10%;
+   }
+
+   @media (max-width: 900px) {
+      width: 90%;
+      margin: 0 5%;
+   }
+}

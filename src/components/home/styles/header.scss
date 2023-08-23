@@ -1,0 +1,166 @@
+@import "@/assets/styles/vars.scss";
+
+.header-page {
+   margin-top: 70px;
+   overflow: hidden;
+   height: 800px;
+
+   @media(max-width: 500px) {
+      margin-top: 45px;
+   }
+
+   @keyframes pulse {
+      0% {
+         transform: scale(0.95);
+      }
+      100% {
+         transform: scale(1);
+      }
+   }
+
+   .promotion {
+      background: $otherBackgroundColor;
+      border-radius: 200px;
+      padding: 10px 5px;
+      color: #D1D1D1;
+      width: 330px;
+      font-size: 14px;
+      animation: pulse 1.5s infinite ease-in-out alternate;
+
+      @media (max-width: 450px){
+         width: 270px;
+         font-size: 12px;
+      }
+
+      span {
+         background: $otherColor;
+         border-radius: 200px;
+         text-transform: uppercase;
+         padding: 5px 10px;
+         color: $textColor;
+         font-weight: 600;
+         margin-right: 10px;
+      }
+   }
+
+   .lead {
+      margin-top: 20px;
+      display: flex;
+      position: relative;
+
+      h1 {
+         font-size: 12em;
+         line-height: 170px;
+
+         @media(max-width: 1500px) and (min-width: 1300px) {
+            font-size: 11em;
+            line-height: 160px;
+         }
+         @media(max-width: 1300px) and (min-width: 650px) {
+            font-size: 8.5em;
+            line-height: 150px;
+         }
+         @media(max-width: 650px) and (min-width: 450px) {
+            font-size: 5.5em;
+            line-height: 110px;
+         }
+         @media(max-width: 450px) {
+            font-size: 4em;
+            line-height: 80px;
+         }
+      }
+
+      p {
+         color: $paragraphColor;
+         margin: 20px 0 40px;
+
+         @media(min-width: 650px) {
+            width: 600px;
+            margin: 40px 0;
+         }
+      }
+
+      .lead__buttons > button {
+         background: $otherBackgroundColor;
+         @include button;
+
+         @media(max-width: 425px) {
+            display: block;
+            margin-right: 0;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+            padding: 15px;
+         }
+
+         &:hover {
+            background: $otherColor;
+         }
+
+         &:not(:last-child) {
+            margin-right: 30px;
+         }
+      }
+
+      &>div:last-of-type {
+         @media(max-width: 1100px) {
+            display: none;
+         }
+
+         img {
+            position: relative;
+            bottom: 255px;
+            right: 270px;
+            pointer-events: none;
+
+            @media(max-width: 1500px) and (min-width: 1300px) {
+               transform: scale(0.7);
+               bottom: 315px;
+               right: 300px;
+            }
+            @media(max-width: 1300px) {
+               transform: scale(0.7);
+               bottom: 326px;
+               right: 350px;
+            }
+         }
+
+         .lead__info {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            @mixin lead-info {
+               background: $otherBackgroundColor;
+               border-radius: 20px;
+               padding: 20px 30px;
+               width: 110px;
+               font-size: 0.8em;
+               letter-spacing: 1px;
+
+               span {
+                  font-weight: 600;
+                  font-size: 3em;
+                  display: block;
+               }
+            }
+
+            .lead__info__time {
+               @include lead-info;
+               margin-bottom: 25px;
+
+               span {
+                  color: #FFE642;
+               }
+            }
+
+            .lead__info__cl {
+               @include lead-info;
+
+               span {
+                  color: #FB1351;
+               }
+            }
+         }
+      }
+   }
+}

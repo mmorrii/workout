@@ -1,0 +1,47 @@
+@import "@/assets/styles/vars.scss";
+
+.block-404 {
+   text-align: center;
+
+   h3 {
+      margin-top: 50px;
+      font-size: 10em;
+      line-height: 100%;
+
+      @media (max-width: 425px) {
+         font-size: 7.5em;
+      }
+   }
+
+   p {
+      margin-bottom: 10px;
+      font-size: 1.4em;
+
+      @media (max-width: 425px) {
+         font-size: 1.2em;
+      }
+   }
+
+   .gif {
+      max-width: 300px;
+      margin: 0 auto 5px;
+
+      img {
+         width: 100%;
+      }
+   }
+
+   .link-back {
+      text-align: center;
+      padding-bottom: 50px;
+
+      a {
+         color: #0070C9;
+         font-size: 1.1em;
+
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+}
