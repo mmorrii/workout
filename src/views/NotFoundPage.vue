@@ -7,7 +7,7 @@
             <img src="@/assets/img/404/runner.gif" alt="gif">
         </div>
         <div class="link-back">
-            <router-link to="/home">
+            <router-link to="/workout">
                 Go to Home
             </router-link>
         </div>

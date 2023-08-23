@@ -18,10 +18,10 @@
                 <button type="submit">Sign in</button>
             </form>
             <p>Don't have an account?
-                <router-link to="/sign-up">Sign up</router-link>
+                <router-link to="/workout/sign-up">Sign up</router-link>
             </p>
             <div class="back-home">
-                <router-link to="/home">
+                <router-link to="/workout">
                     <i class="fa-solid fa-house"></i>
                 </router-link>
             </div>

@@ -1,6 +1,6 @@
 <template>
     <nav class="store-menu">
-        <span class="logo"><router-link to="/home">workout</router-link></span>
+        <span class="logo"><router-link to="/workout">workout</router-link></span>
         <ul v-if="screenWidth > 700">
             <li><a @click="scrollToTarget('start')">С ЧЕГО НАЧАТЬ?</a></li>
             <li><a @click="scrollToTarget('training')">ТРЕНИРОВКИ</a></li>

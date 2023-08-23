@@ -21,10 +21,10 @@
                     <button type="submit">Sign up</button>
                 </form>
                 <p>Already have an account?
-                    <router-link to="/log-in">Sign in</router-link>
+                    <router-link to="/workout/log-in">Sign in</router-link>
                 </p>
                 <div class="back-home">
-                    <router-link to="/home">
+                    <router-link to="/workout">
                         <i class="fa-solid fa-house"></i>
                     </router-link>
                 </div>

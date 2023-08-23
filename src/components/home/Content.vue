@@ -7,7 +7,7 @@
          </div>
          <div class="features__text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</p>
-            <button @click="redirectTo('/store')">Начать</button>
+            <button @click="redirectTo('/workout/store')">Начать</button>
          </div>
       </div>
       <div class="pictures">
