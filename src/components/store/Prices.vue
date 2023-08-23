@@ -23,7 +23,7 @@
                     <li>Sed ut perspiciatis unde omnis</li>
                 </ul>
                 <span>
-                    <router-link to="/log-in">Больше
+                    <router-link to="/workout/log-in">Больше
                         <i class="fa-solid fa-arrow-right"></i>
                     </router-link>
                 </span>

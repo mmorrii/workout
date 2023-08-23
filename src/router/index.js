@@ -2,28 +2,28 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes =  [
     {
-        path: '/home',
+        path: '/workout/home',
         name: 'Home',
         component: () => import ("@/views/Home.vue"),
         alias: '/'
     },
     {
-        path: '/store',
+        path: '/workout/store',
         name: 'Store',
         component: () => import ("@/views/Store.vue"),
     },
     {
-        path: '/log-in',
+        path: '/workout/log-in',
         name: 'Login',
         component: () => import ("@/views/Login.vue"),
     },
     {
-        path: '/sign-up',
+        path: '/workout/sign-up',
         name: 'SignUp',
         component: () => import ("@/views/SignUp.vue"),
     },
     {
-        path: '/:pathMatch(.*)*',
+        path: '/workout/:pathMatch(.*)*',
         name: 'NotFoundPage',
         component: () => import ("@/views/NotFoundPage.vue"),
     },
