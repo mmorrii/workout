@@ -4,7 +4,7 @@
             <div>
                     <h1>Cardio<br>Exercise</h1>
                     <p>Огромный выбор материалов о здоровье и фитнесе, полезных рецептов и историй преображения, которые помогут вам привести себя в форму и оставаться в форме!</p>
-                    <button @click="redirectTo('/workout/log-in')">Присоединяйтесь</button>
+                    <button @click="redirectTo('/log-in')">Присоединяйтесь</button>
                     <div class="images">
                         <img src="/src/assets/img/store/logos/nike.svg" alt="Nike">
                         <img src="/src/assets/img/store/logos/buzzfeed.svg" alt="BuzzFeed">

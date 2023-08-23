@@ -9,8 +9,8 @@
                     <h1>Cardio<br>Exercise</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="lead__buttons">
-                        <button @click="redirectTo('/workout/store')">Начать</button>
-                        <button @click="redirectTo('/workout/store')">Детальнее</button>
+                        <button @click="redirectTo('/store')">Начать</button>
+                        <button @click="redirectTo('/store')">Детальнее</button>
                     </div>
                 </div>
                 <div>
