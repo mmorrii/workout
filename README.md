@@ -1,14 +1,8 @@
-# vue-cardio-exersice
+# Workout
 
-This template should help get you started developing with Vue 3 in Vite.
+This SPA is designed with [Vue 3](https://vuejs.org/) in [Vite](https://vitejs.dev/). In application used the [Vue Router](https://router.vuejs.org/) library and plugin [@vueuse/motion](https://motion.vueuse.org/) for pictures animation.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![](https://media.discordapp.net/attachments/1063479332468699287/1144222318600667287/workout.png?width=1210&height=670)
 
 ## Project Setup
 
