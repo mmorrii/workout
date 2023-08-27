@@ -47,17 +47,17 @@ export default {
          trainers: [
             {
                 class: 'item1',
-                img: 'https://images.pexels.com/photos/4327150/pexels-photo-4327150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                img: '/workout/images/home/trainer1.png',
                 name: 'Саманта Вильям'
             },
             {
                 class: 'item2',
-                img: 'https://images.pexels.com/photos/4753928/pexels-photo-4753928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                img: '/workout/images/home/trainer2.png',
                 name: 'Алина Реймонд'
             },
             {
                 class: 'item3',
-                img: 'https://images.pexels.com/photos/4608151/pexels-photo-4608151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                img: '/workout/images/home/trainer3.png',
                 name: 'Джонатан Вайз'
             }
          ],

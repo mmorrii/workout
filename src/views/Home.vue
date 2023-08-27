@@ -25,12 +25,12 @@ export default {
    data () {
       return {
          courses: [
-            {'title': 'Кардио', 'cl': '250 калорий', 'time': '58:24', 'img': 'https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'},
-            {'title': 'Растяжка', 'cl': '250 калорий', 'time': '58:24', 'img': 'https://images.pexels.com/photos/4720260/pexels-photo-4720260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'},
-            {'title': 'Йога', 'cl': '250 калорий', 'time': '58:24', 'img': 'https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'},
-            {'title': 'Бег', 'cl': '250 калорий', 'time': '58:24', 'img': 'https://images.pexels.com/photos/7523358/pexels-photo-7523358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'},
-            {'title': 'Гантели', 'cl': '250 калорий', 'time': '58:24', 'img': 'https://images.pexels.com/photos/3836880/pexels-photo-3836880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'},
-            {'title': 'На улице', 'cl': '250 калорий', 'time': '58:24', 'img': 'https://images.pexels.com/photos/3799275/pexels-photo-3799275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'},
+            {'title': 'Кардио', 'cl': '250 калорий', 'time': '58:24', 'img': '/workout/images/home/cardio.png'},
+            {'title': 'Растяжка', 'cl': '250 калорий', 'time': '58:24', 'img': '/workout/images/home/stretching.png'},
+            {'title': 'Йога', 'cl': '250 калорий', 'time': '58:24', 'img': '/workout/images/home/yoga.png'},
+            {'title': 'Бег', 'cl': '250 калорий', 'time': '58:24', 'img': '/workout/images/home/run.png'},
+            {'title': 'Гантели', 'cl': '250 калорий', 'time': '58:24', 'img': '/workout/images/home/dumbbells.png'},
+            {'title': 'На улице', 'cl': '250 калорий', 'time': '58:24', 'img': '/workout/images/home/street.png'},
          ]
       }
    },
