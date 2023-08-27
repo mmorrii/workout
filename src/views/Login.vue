@@ -38,7 +38,9 @@ export default {
         }
     },
     mounted() {
-        document.body.style.overflow = 'hidden';
+        setTimeout(() => {
+            document.body.style.overflow = 'hidden';
+        }, 300)
     },
     methods: {
         toggleVisibility() {
